@@ -1,0 +1,14 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: firoj
+  namespace: test
+subjects:
+- kind: ServiceAccount
+  name: firoj
+  apiGroup: ""
+roleRef:
+  kind: Role
+  name: test
+  apiGroup: ""
+
