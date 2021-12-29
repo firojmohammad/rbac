@@ -9,6 +9,6 @@ subjects:
   apiGroup: ""
 roleRef:
   kind: Role
-  name: test
+  name: firoj
   apiGroup: ""
 
